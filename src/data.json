@@ -1,0 +1,53 @@
+{
+    "title": "Hello I'm Mojtaba",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "links":{
+        "github":"https://github.com/anfnamazi/HTMLSite.git",
+        "twitter":"https://twitter.com",
+        "linkedin":"https://www.linkedin.com/"
+    },
+    "section":[
+        {
+            "title": "About",
+            "items": [
+                {
+                    "type":"p",
+                    "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "itmes": [
+                {
+                    "type":"card",
+                    "content":{
+                        "image":"/url",
+                        "title":"React"
+                    }
+                },
+                {
+                    "type":"card",
+                    "content":{
+                        "image":"/url",
+                        "title":"JavaScript"
+                    }
+                },
+                {
+                    "type":"card",
+                    "content":{
+                        "image":"/url",
+                        "title":"HTML"
+                    }
+                },
+                {
+                    "type":"card",
+                    "content":{
+                        "image":"/url",
+                        "title":"CSS"
+                    }
+                }
+            ]
+        }
+    ]
+}

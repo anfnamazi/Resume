@@ -1,47 +1,46 @@
 import React, { Component } from "react";
+import data from "./data.json"
 import "./App.css";
+import { SocialIcon } from 'react-social-icons';
 
 class App extends Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      time: new Date()
-    }
-  }
-
-  componentDidMount() {
-    this.interval = setInterval(() => this.tick(), 1000)
-  }
-
-  tick() {
-    this.setState({
-      time: new Date()
-    })
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.interval)
-  }
-
-  toggle() {
-    if (this.state.pause) {
-      this.interval = setInterval(() => this.tick(), 1000)
-      this.setState({
-        pause: false
-      })
-    } else {
-      clearInterval(this.interval)
-      this.setState({
-        pause: true
-      })
-    }
-  }
-
   render() {
     return (
-      <div onClick={()=>this.toggle()}>
-        <h2>time is:{this.state.time.toLocaleTimeString()}</h2>
+      <div className="App">
+        <div className="navigation">
+
+        </div>
+        <div className="fullpage">
+          <h1 className="title">
+            {data.title}
+          </h1>
+          <div>
+            <h4>
+              {data.subtitle}
+            </h4>
+          </div>
+          <div>
+            {
+              Object.keys(data.links).map(key=>{
+                return(
+                  <SocialIcon url={data.links[key]} />
+                )
+              })
+            }
+          </div>
+        </div>
+        <div className="fullpage">
+            <h3>
+              {data.section[0].title}
+            </h3>
+            <p>
+              {data.section[0].items[0].content}
+            </p>
+        </div>
+        <div className="fullpage">
+
+        </div>
+
       </div>
     );
   }
