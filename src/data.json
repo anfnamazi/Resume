@@ -1,53 +1,75 @@
 {
-    "title": "Hello I'm Mojtaba",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "links":{
-        "github":"https://github.com/anfnamazi/HTMLSite.git",
-        "twitter":"https://twitter.com",
-        "linkedin":"https://www.linkedin.com/"
-    },
-    "section":[
+  "title": "Hello I'm Mojtaba",
+  "subtitle": "lorem ipsum | lorem ipsum | lorem ipsum",
+  "links": {
+    "github": "https://github.com/anfnamazi/HTMLSite.git",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com/"
+  },
+  "section": [
+    {
+      "title": "About",
+      "items": [
         {
-            "title": "About",
-            "items": [
-                {
-                    "type":"p",
-                    "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                }
-            ]
+          "type": "p",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
         },
         {
-            "title": "Skills",
-            "itmes": [
-                {
-                    "type":"card",
-                    "content":{
-                        "image":"/url",
-                        "title":"React"
-                    }
-                },
-                {
-                    "type":"card",
-                    "content":{
-                        "image":"/url",
-                        "title":"JavaScript"
-                    }
-                },
-                {
-                    "type":"card",
-                    "content":{
-                        "image":"/url",
-                        "title":"HTML"
-                    }
-                },
-                {
-                    "type":"card",
-                    "content":{
-                        "image":"/url",
-                        "title":"CSS"
-                    }
-                }
-            ]
+          "type": "p",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+        },
+        {
+          "type": "p",
+          "content": "Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. "
         }
-    ]
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "type": "card",
+          "content": {
+            "image": "images/react.png",
+            "title": "React"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/js.png",
+            "title": "JavaScript"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/html.png",
+            "title": "HTML"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/css.png",
+            "title": "CSS"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/python.png",
+            "title": "Python"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/dj.png",
+            "title": "django"
+          }
+        }
+      ]
+    }
+  ]
 }
