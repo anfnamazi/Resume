@@ -1,0 +1,18 @@
+.third {
+    background-color: #ffffff;
+}
+
+.cards-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+p{
+    padding: 0 40px;
+}
+
+h3{
+    font-size: 2rem;
+}

@@ -4,31 +4,3 @@ body {
   height: 100%;
   font-family: 'Noto Serif TC', serif;
 }
-
-.icons-wrapper {
-  display: flex;
-}
-
-.icon {
-  margin: 10px;
-}
-
-.first{
-  background-color: #004000;
-  color: white;
-}
-
-.second{
-  background-color: #ffff59;
-}
-
-.third{
-  background-color: #c0c0c0;
-}
-
-.cards-wrapper{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}

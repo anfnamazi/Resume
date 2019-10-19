@@ -1,5 +1,5 @@
 {
-  "title": "Hello I'm Mojtaba",
+  "title": "Hello I'm Mojtaba Namazi Fard",
   "subtitle": "lorem ipsum | lorem ipsum | lorem ipsum",
   "links": {
     "github": "https://github.com/anfnamazi/HTMLSite.git",
@@ -20,7 +20,7 @@
         },
         {
           "type": "p",
-          "content": "Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. "
+          "content": "Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. "
         }
       ]
     },
@@ -71,5 +71,6 @@
         }
       ]
     }
-  ]
+  ],
+  "icons": "images/drop.gif"
 }

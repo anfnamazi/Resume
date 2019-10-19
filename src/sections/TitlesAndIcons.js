@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Fullpage from '../components/Fullpage';
 import data from "../data.json";
 import { SocialIcon } from 'react-social-icons';
+import './TitleAndIcons.css';
+import DownIcon from "../components/DownIcon";
+import { Link, Element } from 'react-scroll';
 
 export default class TitlesAndIcons extends Component {
     render() {
@@ -28,6 +31,10 @@ export default class TitlesAndIcons extends Component {
                         }
                     </div>
                 </Fullpage>
+                <Link activeClass="active" to="test1" spy={true} smooth={true} offset={0} duration={500} onSetActive={this.handleSetActive}>
+                    <DownIcon onClick={() => console.log("I'm working")} />
+                </Link>
+                <Element name="test1" className="element"></Element>
             </div>
         );
     }

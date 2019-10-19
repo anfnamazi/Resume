@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Fullpage from '../components/Fullpage';
 import data from "../data.json";
 import SkillCard from '../components/SkillCard'
+import './SkillSection.css';
 
 export default class SkillSection extends Component {
     render() {
@@ -14,7 +15,7 @@ export default class SkillSection extends Component {
                     <div className="cards-wrapper">
                         {data.section[1].items.map(eachskill => {
                             return (
-                                <SkillCard skill={eachskill}/>
+                                <SkillCard skill={eachskill} />
                             );
                         })}
                     </div>

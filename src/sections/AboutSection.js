@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Fullpage from '../components/Fullpage';
 import data from "../data.json";
+import './AboutSection.css';
+import DownIcon from "../components/DownIcon";
+import { Link, Element } from 'react-scroll';
 
 export default class AboutSection extends Component {
     render() {
@@ -16,6 +19,10 @@ export default class AboutSection extends Component {
                         }</p>)}
                     </p>
                 </Fullpage>
+                <Link activeClass="active" to="test2" spy={true} smooth={true} offset={0} duration={500} onSetActive={this.handleSetActive}>
+                    <DownIcon onClick={() => console.log("I'm working")} />
+                </Link>
+                <Element name="test2" className="element"></Element>
             </div>
         );
     }
