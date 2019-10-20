@@ -9,6 +9,7 @@
     padding: 20px;
     background-color: #eee;
     transition-duration: .3s;
+    color: #333
 }
 
 .card:hover{

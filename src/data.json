@@ -6,6 +6,22 @@
     "twitter": "https://twitter.com",
     "linkedin": "https://www.linkedin.com/"
   },
+  "nav": {
+    "links": [
+      {
+        "type": "button",
+        "content": "Night_mode"
+      },
+      {
+        "type": "a",
+        "content": "About"
+      },
+      {
+        "type": "a",
+        "content": "Skills"
+      }
+    ]
+  },
   "section": [
     {
       "title": "About",

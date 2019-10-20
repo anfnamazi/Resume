@@ -10,7 +10,7 @@ export default class TitlesAndIcons extends Component {
     render() {
         return (
             <div>
-                <Fullpage className="first">
+                <Fullpage>
                     <h1 className="title">
                         {data.title}
                     </h1>
@@ -31,8 +31,8 @@ export default class TitlesAndIcons extends Component {
                         }
                     </div>
                 </Fullpage>
-                <Link activeClass="active" to="test1" spy={true} smooth={true} offset={0} duration={500} onSetActive={this.handleSetActive}>
-                    <DownIcon onClick={() => console.log("I'm working")} />
+                <Link activeClass="active" to="test1" spy={true} smooth={true} offset={0} duration={500}>
+                    <DownIcon />
                 </Link>
                 <Element name="test1" className="element"></Element>
             </div>

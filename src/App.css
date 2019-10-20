@@ -3,4 +3,6 @@ body {
   margin: 0;
   height: 100%;
   font-family: 'Noto Serif TC', serif;
+  background-color: white;
+  color: #3498DB;
 }

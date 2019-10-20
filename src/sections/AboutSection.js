@@ -9,7 +9,7 @@ export default class AboutSection extends Component {
     render() {
         return (
             <div>
-                <Fullpage className="second">
+                <Fullpage>
                     <h3>
                         {data.section[0].title}
                     </h3>
@@ -19,8 +19,8 @@ export default class AboutSection extends Component {
                         }</p>)}
                     </p>
                 </Fullpage>
-                <Link activeClass="active" to="test2" spy={true} smooth={true} offset={0} duration={500} onSetActive={this.handleSetActive}>
-                    <DownIcon onClick={() => console.log("I'm working")} />
+                <Link activeClass="active" to="test2" spy={true} smooth={true} offset={0} duration={500}>
+                    <DownIcon />
                 </Link>
                 <Element name="test2" className="element"></Element>
             </div>

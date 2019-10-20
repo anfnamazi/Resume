@@ -8,7 +8,7 @@ export default class SkillSection extends Component {
     render() {
         return (
             <div>
-                <Fullpage className="third">
+                <Fullpage>
                     <h3>
                         {data.section[1].title}
                     </h3>
