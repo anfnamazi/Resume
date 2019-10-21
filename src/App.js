@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <SnowStorm snowColor="rgb(52, 152, 219)" flakesMax={150} />
+        <SnowStorm snowColor="rgb(52, 152, 219)" flakesMax={160} />
         <Element name="test3" className="element"></Element>
         <Nav />
         <TitlesAndIcons />
