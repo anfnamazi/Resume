@@ -4,28 +4,12 @@ import './Nav.css'
 import { Link, Element } from 'react-scroll'
 
 export default class Nav extends Component {
-
-    constructor() {
-        super()
-        this.state = {
-            color: "#3498DB",
-            backgroundColor: "#fff"
-        }
-    }
-
-    changeTheme = () =>
-        this.setState({
-            color: this.state.color === "#3498DB" ? "#fff" : "#3498DB",
-            backgroundColor: this.state.backgroundColor === "#fff" ? "#6B8096" : "#fff"
-        })
-
-
     render() {
         return (
             <div>
-                <nav style={{ color: this.state.color, backgroundColor: this.state.backgroundColor }}>
+                <nav style={{ color: this.props.style.color, backgroundColor: this.props.style.backgroundColor }}>
                     <ul className="nav">
-                        <li onClick={() => this.changeTheme()}>{data.nav.links[0].content}</li>
+                        <li onClick={this.props.onClick}>{this.props.name}</li>
                         <li>
                             <Link activeClass="active" to="test1" spy={true} smooth={true} offset={0} duration={500} >
                                 <a>{data.nav.links[1].content}</a>

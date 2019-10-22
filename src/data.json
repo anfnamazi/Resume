@@ -9,8 +9,7 @@
   "nav": {
     "links": [
       {
-        "type": "button",
-        "content": "Night_mode"
+        "type": "button"
       },
       {
         "type": "a",
