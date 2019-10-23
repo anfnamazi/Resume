@@ -1,6 +1,6 @@
 {
   "title": "Hello I'm Mojtaba Namazi Fard",
-  "subtitle": "lorem ipsum | lorem ipsum | lorem ipsum",
+  "subtitle": "Web designer | Bootstrap Framework | Materialize Framework",
   "links": {
     "github": "https://github.com/anfnamazi/HTMLSite.git",
     "twitter": "https://twitter.com/moji73319239",
@@ -9,7 +9,9 @@
   "nav": {
     "links": [
       {
-        "type": "button"
+        "type": "button",
+        "content": "night_mode",
+        "content2": "light_mode"
       },
       {
         "type": "a",
@@ -27,7 +29,7 @@
       "items": [
         {
           "type": "p",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+          "content": "I love to learn. "
         },
         {
           "type": "p",
@@ -35,7 +37,7 @@
         },
         {
           "type": "p",
-          "content": "Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. "
+          "content": "You can see the templates designed by me through the Github link in the 'Bookstore template, Developer company template, Store template' folders. "
         }
       ]
     },
@@ -73,15 +75,15 @@
         {
           "type": "card",
           "content": {
-            "image": "images/python.png",
-            "title": "Python"
+            "image": "images/jq.png",
+            "title": "JQuery"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "images/dj.png",
-            "title": "django"
+            "image": "images/sass.png",
+            "title": "Sass"
           }
         }
       ]

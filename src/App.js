@@ -7,6 +7,7 @@ import Nav from '../src/components/Nav'
 import SnowStorm from 'react-snowstorm';
 import DownIcon from "./components/DownIcon";
 import { Link, Element } from 'react-scroll';
+import data from './data.json';
 
 class App extends Component {
 
@@ -16,7 +17,7 @@ class App extends Component {
       color: "#3498DB",
       backgroundColor: "#fff",
       backgroundColor2: "#eee",
-      title:"night_mode"
+      title: data.nav.links[0].content
     }
   }
 
@@ -25,7 +26,7 @@ class App extends Component {
       color: this.state.color === "#3498DB" ? "#fff" : "#3498DB",
       backgroundColor: this.state.backgroundColor === "#fff" ? "#363537" : "#fff",
       backgroundColor2: this.state.backgroundColor2 === "#eee" ? "#6B8096" : "#eee",
-      title: this.state.title === "night_mode" ? "light_mode" : "night_mode"
+      title: this.state.title === data.nav.links[0].content ? data.nav.links[0].content2 : data.nav.links[0].content
   })
 
   render() {
