@@ -1,0 +1,23 @@
+.drop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: transLateY(-20px);
+    cursor: pointer;
+    user-select: none;
+    animation: example 1.5s infinite
+}
+
+@keyframes example {
+    0% {
+        transform: transLateY(-20px);
+    }
+
+    50% {
+        transform: transLateY(-40px);
+    }
+
+    100% {
+        transform: transLateY(-20px);
+    }
+}
