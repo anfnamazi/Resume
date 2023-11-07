@@ -3,6 +3,8 @@
   "subtitle": "Web designer | React developer | Otaku",
   "links": {
     "github": "https://github.com/anfnamazi",
+    "linkedin": "https://www.linkedin.com/in/mojtaba-namazy/",
+    "stackoverflow": "https://stackoverflow.com/users/18606173/mojtaba-namazy",
     "twitter": "https://twitter.com/moji73319239",
     "instagram": "https://www.instagram.com/anf.namazi/"
   },
@@ -68,6 +70,13 @@
         {
           "type": "card",
           "content": {
+            "image": "images/js.png",
+            "title": "JavaScript"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
             "image": "images/react.png",
             "title": "React"
           }
@@ -75,8 +84,15 @@
         {
           "type": "card",
           "content": {
-            "image": "images/js.png",
-            "title": "JavaScript"
+            "image": "images/leaflet.png",
+            "title": "Leaflet"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/cesium.png",
+            "title": "Cesium"
           }
         }
       ]
