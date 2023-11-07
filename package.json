@@ -2,7 +2,7 @@
   "name": "react-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anfnamazi.github.io/first-react-prj",
+  "homepage": "https://anfnamazi.github.io/Resume",
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
