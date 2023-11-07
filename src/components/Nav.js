@@ -12,12 +12,12 @@ export default class Nav extends Component {
                         <li onClick={this.props.onClick}>{this.props.name}</li>
                         <li>
                             <Link activeClass="active" to="test1" spy={true} smooth={true} offset={0} duration={500} >
-                                <a>{data.nav.links[1].content}</a>
+                                <a>{data.nav.links[0].content}</a>
                             </Link>
                         </li>
                         <li>
                             <Link activeClass="active" to="test2" spy={true} smooth={true} offset={0} duration={500} >
-                                <a>{data.nav.links[2].content}</a>
+                                <a>{data.nav.links[1].content}</a>
                             </Link>
                         </li>
                     </ul>

@@ -11,11 +11,6 @@
   "nav": {
     "links": [
       {
-        "type": "button",
-        "content": "night_mode",
-        "content2": "light_mode"
-      },
-      {
         "type": "a",
         "content": "About"
       },
