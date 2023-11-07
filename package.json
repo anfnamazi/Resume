@@ -35,6 +35,7 @@
     ]
   },
   "devDependencies": {
-    "react-social-icons": "^4.1.0"
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "react-social-icons": "^5.10.0"
   }
 }
