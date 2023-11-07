@@ -1,6 +1,6 @@
 {
   "title": "Hello I'm Mojtaba Namazi Fard",
-  "subtitle": "Web designer | Bootstrap Framework | Materialize Framework",
+  "subtitle": "Web designer | React developer | Otaku",
   "links": {
     "github": "https://github.com/anfnamazi",
     "twitter": "https://twitter.com/moji73319239",
@@ -29,21 +29,42 @@
       "items": [
         {
           "type": "p",
-          "content": "I love to learn. "
+          "content": "I love to learn."
         },
         {
           "type": "p",
-          "content": "You can see the templates designed by me through the Github link. "
+          "content": "You can see the templates designed by me through the Github link."
         },
         {
           "type": "p",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. "
+          "content": "I have React development experience since 2019 and worked with technologies such as leaflet-map and cesium.js 3D display library and ..."
         }
       ]
     },
     {
       "title": "Skills",
       "items": [
+        {
+          "type": "card",
+          "content": {
+            "image": "images/HTML.png",
+            "title": "HTML"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/CSS.png",
+            "title": "CSS"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/sass.png",
+            "title": "Sass"
+          }
+        },
         {
           "type": "card",
           "content": {
@@ -56,34 +77,6 @@
           "content": {
             "image": "images/js.png",
             "title": "JavaScript"
-          }
-        },
-        {
-          "type": "card",
-          "content": {
-            "image": "images/bs.png",
-            "title": "Bootstrap"
-          }
-        },
-        {
-          "type": "card",
-          "content": {
-            "image": "images/materialize.png",
-            "title": "Materialize"
-          }
-        },
-        {
-          "type": "card",
-          "content": {
-            "image": "images/jq.png",
-            "title": "JQuery"
-          }
-        },
-        {
-          "type": "card",
-          "content": {
-            "image": "images/sass.png",
-            "title": "Sass"
           }
         }
       ]

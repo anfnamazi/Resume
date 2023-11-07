@@ -9,7 +9,8 @@
     padding: 20px;
     background-color: #eee;
     transition-duration: .3s;
-    color: #333
+    color: #333;
+    justify-content: center;
 }
 
 .card:hover{
@@ -21,6 +22,7 @@
     width: 100%;
     object-fit: cover;
     margin-bottom: 1.5rem;
+    height: 80px;
 }
 
 .skill-title h4{
