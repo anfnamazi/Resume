@@ -38,7 +38,7 @@ class App extends Component {
           backgroundColor: this.state.backgroundColor,
         }}
       >
-        <SnowStorm snowColor={this.state.color} />
+        <SnowStorm snowColor={this.state.color} key={this.state.color} />
         <Element name="test3" className="element"></Element>
         <Nav
           onClick={() => this.changeTheme()}
