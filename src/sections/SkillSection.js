@@ -15,7 +15,7 @@ export default class SkillSection extends Component {
                     <div className="cards-wrapper">
                         {data.section[1].items.map(eachskill => {
                             return (
-                                <SkillCard skill={eachskill} />
+                                <SkillCard skill={eachskill} bgColor={this.props.theme.backgroundColor2} />
                             );
                         })}
                     </div>

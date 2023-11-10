@@ -1,15 +1,12 @@
 .card{
     display: flex;
-    border: 1px solid #999;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
     border-radius: 3px;
     max-width: 80px;
     flex-wrap: wrap;
     margin: 10px;
     padding: 20px;
-    background-color: #eee;
     transition-duration: .3s;
-    color: #333;
     justify-content: center;
 }
 

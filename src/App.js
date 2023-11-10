@@ -12,21 +12,25 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      color: "#3498DB",
-      backgroundColor: "#fff",
-      backgroundColor2: "#eee",
-      dark: false,
+      theme: {
+        light: {
+          color: "#769FCD",
+          backgroundColor: "#F7FBFC",
+          backgroundColor2: "#D6E6F2",
+        },
+        dark: {
+          color: "#fff",
+          backgroundColor: "#334257",
+          backgroundColor2: "#476072",
+        },
+      },
+      type: "light",
     };
   }
 
   changeTheme = () =>
     this.setState({
-      color: this.state.color === "#3498DB" ? "#fff" : "#3498DB",
-      backgroundColor:
-        this.state.backgroundColor === "#fff" ? "#363537" : "#fff",
-      backgroundColor2:
-        this.state.backgroundColor2 === "#eee" ? "#6B8096" : "#eee",
-        dark: !this.state.dark,
+      type: this.state.type === "light" ? "dark" : "light",
     });
 
   render() {
@@ -34,23 +38,26 @@ class App extends Component {
       <div
         className="App"
         style={{
-          color: this.state.color,
-          backgroundColor: this.state.backgroundColor,
+          color: this.state.theme[this.state.type].color,
+          backgroundColor: this.state.theme[this.state.type].backgroundColor,
         }}
       >
-        <SnowStorm snowColor={this.state.color} key={this.state.color} />
+        <SnowStorm
+          snowColor={this.state.theme[this.state.type].color}
+          key={this.state.theme[this.state.type].color}
+        />
         <Element name="test3" className="element"></Element>
         <Nav
           onClick={() => this.changeTheme()}
-          name={this.state.dark ? <FaSun /> : <FaMoon />}
+          name={this.state.type === "light" ? <FaMoon /> : <FaSun />}
           style={{
-            color: this.state.color,
-            backgroundColor: this.state.backgroundColor2,
+            color: this.state.theme[this.state.type].color,
+            backgroundColor: this.state.theme[this.state.type].backgroundColor2,
           }}
         />
         <TitlesAndIcons />
         <AboutSection />
-        <SkillSection />
+        <SkillSection theme={this.state.theme[this.state.type]} />
         <Link
           activeClass="active"
           to="test3"
