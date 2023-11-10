@@ -10,3 +10,7 @@
 .icon:hover{
     transform: translateY(-5px)
 }
+
+.title {
+    padding: 0 20px;
+}
