@@ -52,14 +52,7 @@
           "type": "card",
           "content": {
             "image": "images/CSS.png",
-            "title": "CSS"
-          }
-        },
-        {
-          "type": "card",
-          "content": {
-            "image": "images/sass.png",
-            "title": "Sass"
+            "title": "CSS/SASS"
           }
         },
         {
@@ -72,8 +65,22 @@
         {
           "type": "card",
           "content": {
+            "image": "images/Typescript.png",
+            "title": "Typescript"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
             "image": "images/react.png",
             "title": "React"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/Redux.png",
+            "title": "Redux"
           }
         },
         {
