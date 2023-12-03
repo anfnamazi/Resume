@@ -55,7 +55,7 @@ class App extends Component {
             backgroundColor: this.state.theme[this.state.type].backgroundColor2,
           }}
         />
-        <TitlesAndIcons />
+        <TitlesAndIcons theme={this.state.theme[this.state.type]} />
         <AboutSection />
         <SkillSection theme={this.state.theme[this.state.type]} />
         <Link
