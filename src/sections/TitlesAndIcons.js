@@ -18,7 +18,7 @@ export default class TitlesAndIcons extends Component {
             <h4>{data.subtitle}</h4>
           </div>
           <div style={{ padding: 16 }}>
-              <AwesomeButton size="large" href={data.resumeLink}>Resume</AwesomeButton>
+              <AwesomeButton size="large" href={require("../resume.pdf")}>Resume</AwesomeButton>
           </div>
           <div className="icons-wrapper">
             {Object.keys(data.links).map((key) => {
