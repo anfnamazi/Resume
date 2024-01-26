@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1b9118e764f60106a46a6f1cfe24f29",
+    "revision": "cee3dc1f4d79d038bf19bacafa96d423",
     "url": "/Resume/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Resume/static/css/2.47cf6a21.chunk.css"
   },
   {
-    "revision": "f50f310ed98b2fa68b61",
+    "revision": "355965d99bf3946c1b5e",
     "url": "/Resume/static/css/main.1cc77a7d.chunk.css"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Resume/static/js/2.3e435d87.chunk.js"
   },
   {
-    "revision": "f50f310ed98b2fa68b61",
-    "url": "/Resume/static/js/main.6e225666.chunk.js"
+    "revision": "355965d99bf3946c1b5e",
+    "url": "/Resume/static/js/main.9bb34526.chunk.js"
   },
   {
     "revision": "ad6fe3719a440415071d",
     "url": "/Resume/static/js/runtime-main.2a18931e.js"
   },
   {
-    "revision": "89bc21bc17c02bd16f02b43f37a3e754",
-    "url": "/Resume/static/media/resume.89bc21bc.pdf"
+    "revision": "031a9f62bcd75ab78bd8695892276c5c",
+    "url": "/Resume/static/media/resume.031a9f62.pdf"
   }
 ]);
