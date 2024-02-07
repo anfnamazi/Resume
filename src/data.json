@@ -44,20 +44,6 @@
         {
           "type": "card",
           "content": {
-            "image": "images/HTML.png",
-            "title": "HTML"
-          }
-        },
-        {
-          "type": "card",
-          "content": {
-            "image": "images/CSS.png",
-            "title": "CSS/SASS"
-          }
-        },
-        {
-          "type": "card",
-          "content": {
             "image": "images/js.png",
             "title": "JavaScript"
           }
@@ -95,6 +81,41 @@
           "content": {
             "image": "images/cesium.png",
             "title": "Cesium"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/Next.png",
+            "title": "Next.js"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/Git.png",
+            "title": "Git"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/Node.png",
+            "title": "Node.js"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/HTML.png",
+            "title": "HTML"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/CSS.png",
+            "title": "CSS/SASS"
           }
         }
       ]
